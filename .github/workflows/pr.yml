@@ -1,13 +1,6 @@
 name: PR Checks
 
-on:
-  push:
-    branches:
-      - 'gh-readonly-queue/main/*'
-  pull_request:
-    branches:
-      - main
-      - 'release/*'
+on: workflow_dispatch
 
 permissions:
   contents: read
